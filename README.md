@@ -1,5 +1,9 @@
 # Octopus Killer
 
+**Gameplay Video**
+
+https://streamable.com/yqlkb
+
 **Home Screen**
 
 ![Alt text](/Screenshots%20%26%20GIFS/Home.png?raw=true "Home")
