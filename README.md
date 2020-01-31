@@ -63,4 +63,6 @@ Reset: We go into the Reset state when the player is no longer in the enemy's sp
 
 **Death**
 
+Oh... yeah, you can die too!
+
 ![Alt text](/Screenshots%20%26%20GIFS/Clip_Death.gif?raw=true "Death")
