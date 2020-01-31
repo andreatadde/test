@@ -15,7 +15,7 @@ https://streamable.com/yqlkb
 **Game Screen**
 
 The game target is to kill all the octopus, you can shoot in all four direction. The enemies have two HP each, you have five.
-The game has two level, at the start of any level your healt will be restored.
+The game has two levels, at the start of any level your healt will be restored.
 
 ![Alt text](/Screenshots%20%26%20GIFS/Game.png?raw=true "Game")
 
@@ -37,7 +37,7 @@ The enemy behaviour is based on a Strategy Pattern, there are four states: Idle,
 
 Idle: Wait for the player, we switch to Idle only if the enemy is stopped and if he is at the spawn point;
 
-Catch: The enemy start chasing the player when you enter in his spawn range. The movement is set according to the position of the player, before setting the new position a checkCollision is made with the map;
+Catch: The enemy starts chasing the player when you enter in his spawn range. The movement is set according to the position of the player, before setting the new position a checkCollision is made with the map;
 
 Attack: If enemy and player collide, and the reload time of the attack is less than difference between the current time and that of the last attack, enemy passes to Attack state;
 
