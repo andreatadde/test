@@ -1,8 +1,10 @@
 # Octopus Killer
 
-**Gameplay Video**
+# Gameplay Video
 
 https://streamable.com/yqlkb
+
+# Game Screens
 
 **Home Screen**
 
@@ -18,6 +20,18 @@ The game target is to kill all the octopus, you can shoot in all four direction.
 The game has two levels, at the start of any level your healt will be restored.
 
 ![Alt text](/Screenshots%20%26%20GIFS/Game.png?raw=true "Game")
+
+**Pause Screen**
+
+![Alt text](/Screenshots%20%26%20GIFS/Pause.png?raw=true "Pause")
+
+**Death Screen**
+
+![Alt text](/Screenshots%20%26%20GIFS/Death.png?raw=true "Death")
+
+**End Screen**
+
+![Alt text](/Screenshots%20%26%20GIFS/end.png?raw=true "End")
 
 **Bullet Potion**
 
