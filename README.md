@@ -25,13 +25,23 @@ The bullet potion is meant to multiply the shooting range of the bullet, as you 
 
 ![Alt text](/Screenshots%20%26%20GIFS/Clip_Bullet.gif?raw=true "Bullet")
 
-**Jump Potion**
+**Speed & Jump Potion**
 
-The jump potion allows you to jump higher, so you can jump three blocks heights
+This potion makes you faster and allows you to jump higher, so you can jump three blocks heights
 
 ![Alt text](/Screenshots%20%26%20GIFS/Clip_Jump.gif?raw=true "Jump")
 
 **Enemy behaviour**
+
+The enemy behaviour is based on a Strategy Pattern, there are four states: Idle, Catch, Attack e Reset.
+
+Idle: Wait for the player, we switch to Idle only if the enemy is stopped and if he is at the spawn point;
+
+Catch: The enemy start chasing the player when you enter in his spawn range. The movement is set according to the position of the player, before setting the new position a checkCollision is made with the map;
+
+Attack: If enemy and player collide, and the reload time of the attack is less than difference between the current time and that of the last attack, enemy passes to Attack state;
+
+Reset: We go into the Reset state when the player is no longer in the enemy's spawn range and the enemy isn't in the spawn point, as in the case of Catch, we will check the collision with the map before setting the new position.
 
 ![Alt text](/Screenshots%20%26%20GIFS/Clip_Enemy.gif?raw=true "Enemy")
 
